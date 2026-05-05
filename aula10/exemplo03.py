@@ -12,7 +12,7 @@ except (ValueError, TypeError):
 except ZeroDivisionError:
       print ('Funcionário não pode ser Zero')
 except KeyboardInterrupt:
-      print ('Teclado interrompido')
+      print ('Operação cancelada')
 else:
     print(f'Média por funcionário: {media_por_funconario:.2f}')
 #Com erro ou não o bloco do finally sempre irá executar:?
